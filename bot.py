@@ -257,6 +257,11 @@ async def help(ctx):
 发送机器人面板
 
 ━━━━━━━━━━━━━━
+
+🔞 18岁验证面板
+
+/verify18
+发送验证面板
 """
 
     await ctx.respond(text)
