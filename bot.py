@@ -878,4 +878,17 @@ async def verify18(ctx):
         "🔞 成人验证\n\n点击下面按钮确认你已满18岁",
         view=view
     )
+# --------------------
+# 机器人延迟
+# --------------------
+
+@bot.slash_command(
+    name="ping",
+    description="查看机器人延迟"
+)
+async def ping(ctx):
+
+    latency = round(bot.latency * 1000)
+
+    await ctx.respond(f"🏓 机器人延迟: {latency}ms")
 bot.run(TOKEN)
