@@ -262,6 +262,9 @@ async def help(ctx):
 
 /verify18
 发送验证面板
+
+查看机器人状态
+/ping
 """
 
     await ctx.respond(text)
