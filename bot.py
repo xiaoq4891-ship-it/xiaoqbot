@@ -878,17 +878,62 @@ async def verify18(ctx):
         "🔞 成人验证\n\n点击下面按钮确认你已满18岁",
         view=view
     )
+import time
+import discord
+
+start_time = time.time()
+
 # --------------------
-# 机器人延迟
+# 高级 Ping
 # --------------------
 
 @bot.slash_command(
     name="ping",
-    description="查看机器人延迟"
+    description="查看机器人状态"
 )
 async def ping(ctx):
 
     latency = round(bot.latency * 1000)
 
-    await ctx.respond(f"🏓 机器人延迟: {latency}ms")
+    uptime_seconds = int(time.time() - start_time)
+
+    hours = uptime_seconds // 3600
+    minutes = (uptime_seconds % 3600) // 60
+    seconds = uptime_seconds % 60
+
+    uptime = f"{hours}小时 {minutes}分钟 {seconds}秒"
+
+    embed = discord.Embed(
+        title="🏓 机器人状态",
+        description="机器人运行正常",
+        color=0x00ff99
+    )
+
+    embed.add_field(
+        name="🟢 在线状态",
+        value="正常运行",
+        inline=False
+    )
+
+    embed.add_field(
+        name="📡 延迟",
+        value=f"{latency}ms",
+        inline=True
+    )
+
+    embed.add_field(
+        name="⏰ 运行时间",
+        value=uptime,
+        inline=True
+    )
+
+    embed.add_field(
+        name="🤖 机器人",
+        value=bot.user.name,
+        inline=False
+    )
+
+    embed.set_footer(text="XiaoQ Bot Status")
+
+    await ctx.respond(embed=embed)
 bot.run(TOKEN)
