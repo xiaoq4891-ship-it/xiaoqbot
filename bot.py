@@ -265,6 +265,7 @@ async def help(ctx):
 
 查看机器人状态
 /ping
+可检查机器人状态
 """
 
     await ctx.respond(text)
