@@ -317,22 +317,29 @@ TICKET_CATEGORY_ID = 工单分类ID
 
 📜 开源说明
 
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+XiaoQBot License
 
-你可以：
-- 修改
-- 学习
-- 分享
+Copyright (c) 2026 XiaoQ
+
+允许：
+
+- 免费使用本项目
+- 修改本项目
+- 自行部署机器人
+- 使用本项目创建自己的卡密系统
+- 通过机器人运营自己的服务器
 
 禁止：
-- 商业使用（付费发放等）
 
-更多信息请参考：
-https://creativecommons.org/licenses/by-nc/4.0/
+- 将本项目源码进行付费售卖
+- 倒卖本项目源码
+- 修改后以“原创源码”名义售卖
+- 删除原作者信息
+
+使用本项目即代表你同意以上协议。
+
 
 请勿用于违法用途。
-还有
-此为卡密机器人里面禁止以付费形式发布只是不允许你把这个机器人卖给别人而不是说你不允许把卡密卖给别人你可以创建自己的卡密然后付费卖给别人
 ---
 
 ❤️ 作者
