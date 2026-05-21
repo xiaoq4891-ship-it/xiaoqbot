@@ -264,7 +264,7 @@ async def help(ctx):
 发送验证面板
 """
 
-  await ctx.respond(text)
+    await ctx.respond(text)
 
 # -------------------------
 # 每日签到
