@@ -323,3 +323,6 @@ TICKET_CATEGORY_ID = 工单分类ID
 ❤️ 作者
 
 小清
+
+Copyright (c) 2026 XiaoQ
+All rights reserved.
