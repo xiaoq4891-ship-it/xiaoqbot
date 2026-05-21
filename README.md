@@ -331,7 +331,8 @@ Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 https://creativecommons.org/licenses/by-nc/4.0/
 
 请勿用于违法用途。
-
+还有
+此为卡密机器人里面禁止以付费形式发布只是不允许你把这个机器人卖给别人而不是说你不允许把卡密卖给别人你可以创建自己的卡密然后付费卖给别人
 ---
 
 ❤️ 作者
