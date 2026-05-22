@@ -43,7 +43,7 @@ Prohibited:
 This project is licensed only for server operations,
 and is NOT licensed for commercial source code reselling.
 
-Français
+# Français:
 Copyright (c) 2026 XiaoQ
 Tous droits réservés.
 
