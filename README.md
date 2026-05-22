@@ -330,7 +330,7 @@ All rights reserved.
 
 
 
-English:
+# English:
 XiaoQ Bot
 
 90% AI-made, 10% human-made.
@@ -661,7 +661,7 @@ XiaoQ
 Copyright (c) 2026 XiaoQ
 All rights reserved.
 
-français:
+# français:
 XiaoQ Bot
 
 90 % écrit par IA, 10 % par humain.
@@ -992,7 +992,7 @@ XiaoQ
 Copyright (c) 2026 XiaoQ
 Tous droits réservés.
 
-日本語:
+# 日本語:
 XiaoQ Bot
 
 90% AI制作、10% 人力制作。
@@ -1319,7 +1319,7 @@ XiaoQ
 Copyright (c) 2026 XiaoQ
 All rights reserved。
 
-한국어:
+# 한국어:
 XiaoQ Bot
 
 90%는 AI가 제작했고, 10%는 사람이 제작했습니다.
